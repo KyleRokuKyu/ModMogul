@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4E896234-9A0F-4B5E-B07B-0D12861F2B41}|ModMogul.csproj|b:\\steam\\steamapps\\common\\minemogul\\makin mods\\modmogul\\questify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E896234-9A0F-4B5E-B07B-0D12861F2B41}|ModMogul.csproj|solutionrelative:questify.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4E896234-9A0F-4B5E-B07B-0D12861F2B41}|ModMogul.csproj|b:\\steam\\steamapps\\common\\minemogul\\makin mods\\modmogul\\modmogulplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E896234-9A0F-4B5E-B07B-0D12861F2B41}|ModMogul.csproj|solutionrelative:modmogulplugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,44 +26,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ModMogulPlugin.cs",
               "DocumentMoniker": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\ModMogulPlugin.cs",
               "RelativeDocumentMoniker": "ModMogulPlugin.cs",
               "ToolTip": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\ModMogulPlugin.cs",
               "RelativeToolTip": "ModMogulPlugin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB8AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-02T15:09:37.789Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Questify.cs",
+              "DocumentMoniker": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\Questify.cs",
+              "RelativeDocumentMoniker": "Questify.cs",
+              "ToolTip": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\Questify.cs",
+              "RelativeToolTip": "Questify.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwDMAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T05:58:54.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ModelMaker.cs",
               "DocumentMoniker": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\ModelMaker.cs",
               "RelativeDocumentMoniker": "ModelMaker.cs",
               "ToolTip": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\ModelMaker.cs",
               "RelativeToolTip": "ModelMaker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoBAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwA8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-02T14:23:10.401Z"
+              "WhenOpened": "2026-01-02T14:23:10.401Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Itemizer.cs",
               "DocumentMoniker": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\Itemizer.cs",
               "RelativeDocumentMoniker": "Itemizer.cs",
               "ToolTip": "B:\\Steam\\steamapps\\common\\MineMogul\\Makin Mods\\ModMogul\\Itemizer.cs",
               "RelativeToolTip": "Itemizer.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowGgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAcwAcBAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-03T18:59:59.318Z"
+              "WhenOpened": "2026-01-03T18:59:59.318Z",
+              "EditorCaption": ""
             }
           ]
         }

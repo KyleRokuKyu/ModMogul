@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("An API with hooks to make modding easier")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.3.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.3.1+38b6f8b0a5a8927ef8fc7ad487276693aa48c9b6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.3.1+0a616141b403208d7630b0c547e38349a4c1edd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ModMogul")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ModMogul")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.3.1.0")]

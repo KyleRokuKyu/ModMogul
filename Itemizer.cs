@@ -47,7 +47,7 @@ namespace ModMogul
 			}
 		}
 
-		private sealed class ItemRuntime
+		public sealed class ItemRuntime
 		{
 			public ItemSpec Spec;
 
@@ -59,11 +59,10 @@ namespace ModMogul
 			public ShopItemDefinition ShopItemDef;
 		}
 
+		public static readonly Dictionary<int, ItemRuntime> _itemsByBlockId = new();
+
 		private static readonly object _lock = new();
-		private static readonly Dictionary<int, ItemRuntime> _itemsByBlockId = new();
-
 		private static readonly HashSet<int> _injectedEconomyIds = new();
-
 		private static EconomyManager _lastEconomy;
 		private static GameObject prefabHolder;
 

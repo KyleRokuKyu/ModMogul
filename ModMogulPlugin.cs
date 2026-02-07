@@ -14,6 +14,7 @@ namespace ModMogul
 	{
 		static SettingsSetter _settingsSetter;
 		public static Shader fadeShader;
+		public static Questify Questify;
 
 		private void Start ()
 		{
@@ -28,6 +29,17 @@ namespace ModMogul
 
 			StartCoroutine(WaitForMenu());
 			_settingsSetter = gameObject.AddComponent<SettingsSetter>();
+			Questify = gameObject.AddComponent<Questify>();
+
+			SceneManager.activeSceneChanged += OnSceneChanged;
+		}
+
+		private void OnSceneChanged (Scene current, Scene next)
+		{
+			if (next.name == "MainMenu")
+			{
+				StartCoroutine(WaitForMenu());
+			}
 		}
 
 		private IEnumerator WaitForMenu ()
@@ -83,9 +95,10 @@ namespace ModMogul
 			yield return null;
 			GameObject.FindFirstObjectByType<SavingLoadingManager>().SendMessage("Awake");
 
-			StartCoroutine(WaitForReturnToMenu());
+			//StartCoroutine(WaitForReturnToMenu());
 		}
 
+		/*
 		IEnumerator WaitForReturnToMenu ()
 		{
 			while (SceneManager.GetActiveScene() == null)
@@ -102,6 +115,7 @@ namespace ModMogul
 			}
 			StartCoroutine(WaitForMenu());
 		}
+		*/
 
 		public static SettingsSetter SettingSetter
 		{
